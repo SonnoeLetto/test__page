@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="#"> Logo </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Free test</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Catalog</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Help</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="header__personal" href="form.html#tab_01">
+            <p class="header__personal-name">Michael Browk</p>
+            <div class="header__personal-icon">
+              <img src="img//Lion.svg" alt="personal avatar" />
+            </div>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="catalog">
+      <div class="container">
+        <div class="wrapper">
+          <h1 class="catalog__title title">Course catalog</h1>
+          <p class="catalog__text">
+            Each course contains video lectures, tasks, and text materials. All
+            courses viewed by you are displayed in your personal account
+          </p>
+
+          <form class="main__form" action="#">
+            <div class="search__bar-wrap">
+              <input
+                class="search__bar input-style"
+                type="search"
+                placeholder="Search"
+              />
+            </div>
+            <div class="options-connect__select">
+              <div class="dropdown">
+                <button class="dropdown__btn input-style" type="button">
+                  <span>Your country</span>
+                </button>
+                <ul class="dropdown__list">
+                  <li class="dropdown__list-item" data-value="USA">USA</li>
+                  <li class="dropdown__list-item" data-value="ukr">Ukr</li>
+                </ul>
+                <input
+                  type="text"
+                  class="dropdown__input-hidden"
+                  value=""
+                  name="sel-category"
+                />
+              </div>
+            </div>
+          </form>
+          <div class="card">
+            <div class="card-wrapper">
+              <div class="card-item">
+                <div class="card-item__header">
+                  <div class="line-progress"><p>progress 12%</p></div>
+                  <img src="./img/card/card__back.jpg" alt="img" />
+                  <div class="avatar">
+                    <img src="./img/card/card__ava.png" alt="" />
+                    <h6 class="name">Alexa</h6>
+                  </div>
+                </div>
+                <div class="card-item__info">
+                  <h2 class="card-item__info-title">
+                    Take exam in Mathematics at 100 points
+                  </h2>
+                  <ul class="card-item__item-list">
+                    <li class="card-item__list icon-hat">12 lessons</li>
+                    <li class="card-item__list icon-pen">12 tasks</li>
+                    <li class="card-item__list icon-youtube">30 minutes</li>
+                  </ul>
+                  <div class="container-btn">
+                    <button class="btn btn__cont">Continue</button>
+                    <button class="btn btn__more">More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-item">
+                <div class="card-item__header">
+                  <div class="line-progress"><p>progress 12%</p></div>
+                  <img src="./img/card/card__back2.jpg" alt="img" />
+                  <div class="avatar">
+                    <img src="./img/card/card__ava2.png" alt="" />
+                    <h6 class="name">Kathryn Nguyen</h6>
+                  </div>
+                </div>
+                <div class="card-item__info">
+                  <h2 class="card-item__info-title">
+                    How buy new clothes without money in USA
+                  </h2>
+                  <ul class="card-item__item-list">
+                    <li class="card-item__list icon-hat">12 lessons</li>
+                    <li class="card-item__list icon-pen">12 tasks</li>
+                    <li class="card-item__list icon-youtube">30 minutes</li>
+                  </ul>
+                  <div class="container-btn">
+                    <button class="btn btn__cont">Continue</button>
+                    <button class="btn btn__more">More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-item">
+                <div class="card-item__header">
+                  <div class="line-progress"><p>progress 12%</p></div>
+                  <img src="./img/card/card__back3.jpg" alt="img" />
+                  <div class="avatar">
+                    <img src="./img/card/card__ava3.png" alt="" />
+                    <h6 class="name">Diane Miles</h6>
+                  </div>
+                </div>
+                <div class="card-item__info">
+                  <h2 class="card-item__info-title">Why people hate me?</h2>
+                  <ul class="card-item__item-list">
+                    <li class="card-item__list icon-hat">12 lessons</li>
+                    <li class="card-item__list icon-pen">12 tasks</li>
+                    <li class="card-item__list icon-youtube">30 minutes</li>
+                  </ul>
+                  <div class="container-btn">
+                    <button class="btn btn__cont">Continue</button>
+                    <button class="btn btn__more">More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

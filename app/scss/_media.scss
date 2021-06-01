@@ -1,0 +1,28 @@
+@media (max-width: 1068px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 998px) {
+  .card-wrapper {
+    flex-wrap: wrap;
+  }
+  .card-item {
+    flex-basis: 48%;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 785px) {
+  .card-wrapper {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 13px;
+  }
+  .checkbox__wrap label span {
+    display: table-cell;
+  }
+}

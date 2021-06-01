@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <main class="form__page">
+      <section class="autorized">
+        <form class="autorized__form">
+          <div class="form-wrap">
+            <div class="autorized__title title">Profile</div>
+            <!-- <div class="tabs"> -->
+            <div class="tabs__items">
+              <a href="#tab_01" class="tabs__item">Registration</a>
+              <a href="#tab_02" class="tabs__item">Sign In</a>
+            </div>
+          </div>
+          <div class="social-block">
+            <p class="social-text">You can sign in with social</p>
+            <div class="social-icons">
+              <img class="social-icon" src="img/icons/vk.svg" alt="logo-vk" />
+              <img
+                class="social-icon"
+                src="img/icons/facebook.svg"
+                alt="logo-fb"
+              />
+              <img
+                class="social-icon"
+                src="img/icons/google.svg"
+                alt="logo-google"
+              />
+            </div>
+          </div>
+          <div class="form-wrap">
+            <div class="tabs__body">
+              <div id="tab_01" class="tabs__block">
+                <input
+                  class="form-input input-style"
+                  type="text"
+                  placeholder="Your name"
+                />
+                <input
+                  class="form-input input-style"
+                  type="email"
+                  placeholder="Email"
+                />
+                <input
+                  class="form-input input-style"
+                  type="tel"
+                  placeholder="Phone"
+                />
+                <div class="checkbox__wrap">
+                  <input
+                    class="custom-checkbox"
+                    id="checkbox"
+                    type="radio"
+                    name="check"
+                  />
+                  <label for="checkbox"
+                    >I accept the terms of the offer of
+                    <span> the privacy policy</span>
+                  </label>
+                </div>
+                <div class="container-btn">
+                  <button class="btn btn_odd btn_box">Registration</button>
+                  <p class="container-btn__text-wrap">
+                    <a href="form.html#tab_02" class="btn btn_even btn_box"
+                      >Sign In</a
+                    >
+                  </p>
+                </div>
+              </div>
+
+              <div id="tab_02" class="tabs__block">
+                <input
+                  class="form-input input-style"
+                  type="email"
+                  placeholder="Email"
+                />
+                <div class="container-btn">
+                  <p class="container-btn__text-wrap">
+                    <a href="form.html#tab_01" class="btn btn_even btn_box"
+                      >Registration</a
+                    >
+                  </p>
+
+                  <button class="btn btn_odd btn_box">Sign in</button>
+                </div>
+              </div>
+              <!-- </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
